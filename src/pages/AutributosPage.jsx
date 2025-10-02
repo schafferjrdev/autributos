@@ -207,7 +207,7 @@ function PetRadarCard({ pet, emphasis = false }) {
 
       {/* Radar + lista curta */}
       <div className='mt-6 grid grid-cols-1 lg:grid-cols-3 gap-6'>
-        <div className='col-span-2 h-90 w-full flex flex-col'>
+        <div className='col-span-2 h-50 md:h-90 w-full flex flex-col '>
           <ResponsiveContainer width='100%' height='100%'>
             <RadarChart data={data} outerRadius='80%'>
               <PolarGrid />
@@ -222,7 +222,7 @@ function PetRadarCard({ pet, emphasis = false }) {
         <div className='grid grid-cols-2 md:grid-cols-3 gap-3 content-start'>
           {ATTR_ORDER.map((k) => (
             <div
-              className='rounded-xl border p-2  backdrop-blur bg-white flex flex-col items-center justify-between'
+              className='rounded-xl border p-2 font-bold backdrop-blur bg-white flex flex-col items-center justify-between'
               style={{ borderColor: ATTR_COLORS[k], color: ATTR_COLORS[k] }}
             >
               <span className='text-xs font-medium'>{LABELS[k]}</span>
