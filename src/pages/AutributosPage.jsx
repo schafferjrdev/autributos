@@ -113,6 +113,7 @@ function Avatar({ src, alt, size = 128 }) {
         <PawPrint className='w-10 h-10 opacity-60' />
       ) : (
         <img
+          loading="lazy"
           src={src}
           alt={alt}
           className='w-full h-full object-cover'
@@ -399,6 +400,7 @@ export default function Autributos() {
                 <div className='flex items-center gap-3'>
                   <div className='relative w-12 h-12 rounded-full overflow-hidden bg-slate-100 flex items-center justify-center'>
                     <img
+                      loading="lazy"
                       src={p.foto}
                       alt={p.nome}
                       onError={(e) => (e.currentTarget.style.display = "none")}
