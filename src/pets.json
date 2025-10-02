@@ -1,0 +1,386 @@
+[
+    {
+        "nome": "Ajani",
+        "foto": "/fotos/Ajani.jpg",
+        "especie": "Gato",
+        "idade": "4",
+        "atributos": {
+            "sociavel": 2,
+            "barulhento": 4,
+            "teimoso": 3,
+            "curioso": 3,
+            "carente": 4,
+            "drama": 5,
+            "energetico": 5,
+            "territorial": 3
+        }
+    },
+    {
+        "nome": "Anya",
+        "foto": "/fotos/Anya.jpg",
+        "especie": "Gato",
+        "idade": "0.25",
+        "atributos": {
+            "sociavel": 3,
+            "barulhento": 0,
+            "teimoso": 1,
+            "curioso": 3,
+            "carente": 3,
+            "drama": 3,
+            "energetico": 3,
+            "territorial": 0
+        }
+    },
+    {
+        "nome": "Cerberus",
+        "foto": "/fotos/Cerberus.jpg",
+        "especie": "Cachorro",
+        "idade": "12",
+        "atributos": {
+            "sociavel": 2,
+            "barulhento": 1,
+            "teimoso": 2,
+            "curioso": 2,
+            "carente": 3,
+            "drama": 0,
+            "energetico": 2,
+            "territorial": 3
+        }
+    },
+    {
+        "nome": "Dory",
+        "foto": "/fotos/Dory.jpg",
+        "especie": "Cachorro",
+        "idade": "4",
+        "atributos": {
+            "sociavel": 5,
+            "barulhento": 5,
+            "teimoso": 3,
+            "curioso": 5,
+            "carente": 5,
+            "drama": 4,
+            "energetico": 5,
+            "territorial": 2
+        }
+    },
+    {
+        "nome": "Emma",
+        "foto": "/fotos/Emma.jpg",
+        "especie": "Gato",
+        "idade": "0.5",
+        "atributos": {
+            "sociavel": 1,
+            "barulhento": 0,
+            "teimoso": 3,
+            "curioso": 1,
+            "carente": 1,
+            "drama": 3,
+            "energetico": 3,
+            "territorial": 3
+        }
+    },
+    {
+        "nome": "Guillermo",
+        "foto": "/fotos/Guillermo.jpg",
+        "especie": "Cachorro",
+        "idade": "3",
+        "atributos": {
+            "sociavel": 3,
+            "barulhento": 1,
+            "teimoso": 4,
+            "curioso": 3,
+            "carente": 4,
+            "drama": 3,
+            "energetico": 3,
+            "territorial": 3
+        }
+    },
+    {
+        "nome": "Illaoi",
+        "foto": "/fotos/Illaoi.jpg",
+        "especie": "Cachorro",
+        "idade": "1",
+        "atributos": {
+            "sociavel": 4,
+            "barulhento": 3,
+            "teimoso": 3,
+            "curioso": 5,
+            "carente": 4,
+            "drama": 4,
+            "energetico": 5,
+            "territorial": 2
+        }
+    },
+    {
+        "nome": "Katia Orrana",
+        "foto": "/fotos/Katia_Orrana.jpg",
+        "especie": "Cachorro",
+        "idade": "2",
+        "atributos": {
+            "sociavel": 5,
+            "barulhento": 1,
+            "teimoso": 1,
+            "curioso": 4,
+            "carente": 5,
+            "drama": 5,
+            "energetico": 5,
+            "territorial": 0
+        }
+    },
+    {
+        "nome": "Lilo",
+        "foto": "/fotos/Lilo.jpg",
+        "especie": "Cachorro",
+        "idade": "5",
+        "atributos": {
+            "sociavel": 3,
+            "barulhento": 4,
+            "teimoso": 4,
+            "curioso": 1,
+            "carente": 1,
+            "drama": 2,
+            "energetico": 3,
+            "territorial": 3
+        }
+    },
+    {
+        "nome": "Ludovico",
+        "foto": "/fotos/Ludovico.jpg",
+        "especie": "Cachorro",
+        "idade": "6",
+        "atributos": {
+            "sociavel": 4,
+            "barulhento": 3,
+            "teimoso": 3,
+            "curioso": 4,
+            "carente": 3,
+            "drama": 4,
+            "energetico": 3,
+            "territorial": 2
+        }
+    },
+    {
+        "nome": "Lupita",
+        "foto": "/fotos/Lupita.jpg",
+        "especie": "Cachorro",
+        "idade": "2",
+        "atributos": {
+            "sociavel": 2,
+            "barulhento": 3,
+            "teimoso": 1,
+            "curioso": 3,
+            "carente": 4,
+            "drama": 3,
+            "energetico": 4,
+            "territorial": 4
+        }
+    },
+    {
+        "nome": "Melody",
+        "foto": "/fotos/Melody.jpg",
+        "especie": "Cachorro",
+        "idade": "11",
+        "atributos": {
+            "sociavel": 3,
+            "barulhento": 5,
+            "teimoso": 3,
+            "curioso": 3,
+            "carente": 4,
+            "drama": 4,
+            "energetico": 3,
+            "territorial": 5
+        }
+    },
+    {
+        "nome": "Mushu",
+        "foto": "/fotos/Mushu.jpg",
+        "especie": "Cachorro",
+        "idade": "5",
+        "atributos": {
+            "sociavel": 4,
+            "barulhento": 2,
+            "teimoso": 3,
+            "curioso": 4,
+            "carente": 5,
+            "drama": 3,
+            "energetico": 5,
+            "territorial": 2
+        }
+    },
+    {
+        "nome": "Nany",
+        "foto": "/fotos/Nany.jpg",
+        "especie": "Gato",
+        "idade": "1",
+        "atributos": {
+            "sociavel": 1,
+            "barulhento": 2,
+            "teimoso": 4,
+            "curioso": 4,
+            "carente": 2,
+            "drama": 3,
+            "energetico": 5,
+            "territorial": 3
+        }
+    },
+    {
+        "nome": "Nick",
+        "foto": "/fotos/Nick.jpg",
+        "especie": "Gato",
+        "idade": "10",
+        "atributos": {
+            "sociavel": 3,
+            "barulhento": 0,
+            "teimoso": 4,
+            "curioso": 5,
+            "carente": 2,
+            "drama": 1,
+            "energetico": 3,
+            "territorial": 4
+        }
+    },
+    {
+        "nome": "Nissa",
+        "foto": "/fotos/Nissa.jpg",
+        "especie": "Gato",
+        "idade": "4",
+        "atributos": {
+            "sociavel": 4,
+            "barulhento": 5,
+            "teimoso": 3,
+            "curioso": 4,
+            "carente": 2,
+            "drama": 5,
+            "energetico": 1,
+            "territorial": 2
+        }
+    },
+    {
+        "nome": "Nissin",
+        "foto": "/fotos/Nissin.jpg",
+        "especie": "Gato",
+        "idade": "6",
+        "atributos": {
+            "sociavel": 4,
+            "barulhento": 3,
+            "teimoso": 1,
+            "curioso": 1,
+            "carente": 3,
+            "drama": 3,
+            "energetico": 1,
+            "territorial": 1
+        }
+    },
+    {
+        "nome": "Pandora",
+        "foto": "/fotos/Pandora.jpg",
+        "especie": "Cachorro",
+        "idade": "1",
+        "atributos": {
+            "sociavel": 2,
+            "barulhento": 4,
+            "teimoso": 5,
+            "curioso": 5,
+            "carente": 2,
+            "drama": 3,
+            "energetico": 5,
+            "territorial": 5
+        }
+    },
+    {
+        "nome": "Pepito",
+        "foto": "/fotos/Pepito.jpg",
+        "especie": "Gato",
+        "idade": "2",
+        "atributos": {
+            "sociavel": 0,
+            "barulhento": 3,
+            "teimoso": 3,
+            "curioso": 3,
+            "carente": 2,
+            "drama": 2,
+            "energetico": 3,
+            "territorial": 3
+        }
+    },
+    {
+        "nome": "Pretinha",
+        "foto": "/fotos/Pretinha.jpg",
+        "especie": "Gato",
+        "idade": "4",
+        "atributos": {
+            "sociavel": 1,
+            "barulhento": 2,
+            "teimoso": 3,
+            "curioso": 5,
+            "carente": 3,
+            "drama": 4,
+            "energetico": 2,
+            "territorial": 5
+        }
+    },
+    {
+        "nome": "Pscilene",
+        "foto": "/fotos/Pscilene.jpg",
+        "especie": "Gato",
+        "idade": "5",
+        "atributos": {
+            "sociavel": 2,
+            "barulhento": 1,
+            "teimoso": 3,
+            "curioso": 5,
+            "carente": 4,
+            "drama": 5,
+            "energetico": 2,
+            "territorial": 1
+        }
+    },
+    {
+        "nome": "Pitty",
+        "foto": "/fotos/Pitty.jpg",
+        "especie": "Cachorro",
+        "idade": "5",
+        "atributos": {
+            "sociavel": 3,
+            "barulhento": 4,
+            "teimoso": 1,
+            "curioso": 3,
+            "carente": 3,
+            "drama": 3,
+            "energetico": 4,
+            "territorial": 2
+        }
+    },
+    {
+        "nome": "Sherlock",
+        "foto": "/fotos/Sherlock.jpg",
+        "especie": "Cachorro",
+        "idade": "7",
+        "atributos": {
+            "sociavel": 4,
+            "barulhento": 2,
+            "teimoso": 2,
+            "curioso": 4,
+            "carente": 5,
+            "drama": 5,
+            "energetico": 4,
+            "territorial": 3
+        }
+    },
+    {
+        "nome": "Tchan",
+        "foto": "/fotos/Tchan.jpg",
+        "especie": "Gato",
+        "idade": "6",
+        "atributos": {
+            "sociavel": 2,
+            "barulhento": 1,
+            "teimoso": 3,
+            "curioso": 4,
+            "carente": 3,
+            "drama": 2,
+            "energetico": 3,
+            "territorial": 4
+        }
+    }
+]
