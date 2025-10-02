@@ -1,5 +1,9 @@
 // src/pages/RealityPage.jsx
 import React, { useEffect, useMemo, useRef, useState } from "react";
+import { Link } from "react-router-dom";
+import {
+    ChevronLeft
+} from "lucide-react";
 import { useSearchParams } from "react-router-dom";
 import { simulateReality } from "../reality.mjs"; // ajuste o caminho
 import pets from "../pets.json"; // ajuste se seu dataset estiver noutro lugar
@@ -87,7 +91,7 @@ export default function RealityPage() {
                     <button
                         type="submit"
                         disabled={running}
-                        className="rounded-lg px-4 py-2 bg-indigo-600 text-white font-medium shadow hover:bg-indigo-700 disabled:opacity-60"
+                        className="cursor-pointer rounded-lg px-4 py-2 bg-indigo-600 text-white font-medium shadow hover:bg-indigo-700 disabled:opacity-60"
                     >
                         {running ? "Rodando..." : "Rodar simulação"}
                     </button>
@@ -96,10 +100,16 @@ export default function RealityPage() {
                         type="button"
                         onClick={handleClear}
                         disabled={running}
-                        className="rounded-lg px-4 py-2 bg-gray-200 text-gray-800 font-medium shadow hover:bg-gray-300 disabled:opacity-60"
+                        className="cursor-pointer rounded-lg px-4 py-2 bg-gray-200 text-gray-800 font-medium shadow hover:bg-gray-300 disabled:opacity-60"
                     >
                         Limpar
                     </button>
+                    <Link
+                        to="/"
+                        className="cursor-pointer inline-flex items-center rounded-lg px-4 py-2 bg-gray-200 text-gray-800 font-medium shadow hover:bg-gray-300 disabled:opacity-60"
+                    >
+                        <ChevronLeft className='w-4 h-4' /> Voltar
+                    </Link>
                 </form>
 
                 {result && (
@@ -123,7 +133,7 @@ export default function RealityPage() {
                                         a.click();
                                         URL.revokeObjectURL(url);
                                     }}
-                                    className="rounded-md bg-gray-100 px-3 py-2 text-sm hover:bg-gray-200"
+                                    className="cursor-pointer rounded-md bg-gray-100 px-3 py-2 text-sm hover:bg-gray-200"
                                 >
                                     Baixar log
                                 </button>
@@ -133,7 +143,7 @@ export default function RealityPage() {
                                         if (!result?.logs) return;
                                         navigator.clipboard.writeText(result.logs.join("\n"));
                                     }}
-                                    className="rounded-md bg-gray-100 px-3 py-2 text-sm hover:bg-gray-200"
+                                    className="cursor-pointer rounded-md bg-gray-100 px-3 py-2 text-sm hover:bg-gray-200"
                                 >
                                     Copiar log
                                 </button>
