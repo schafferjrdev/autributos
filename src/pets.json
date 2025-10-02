@@ -85,14 +85,14 @@
         "especie": "Cachorro",
         "idade": "3",
         "atributos": {
-            "sociavel": 3,
+            "sociavel": 4,
             "barulhento": 1,
             "teimoso": 4,
             "curioso": 3,
             "carente": 4,
             "drama": 3,
             "energetico": 3,
-            "territorial": 3
+            "territorial": 4
         }
     },
     {
@@ -166,8 +166,8 @@
         "idade": "2",
         "atributos": {
             "sociavel": 2,
-            "barulhento": 3,
-            "teimoso": 1,
+            "barulhento": 5,
+            "teimoso": 0,
             "curioso": 3,
             "carente": 4,
             "drama": 3,
